@@ -116,7 +116,7 @@ main{
 /* about style */
 .about {
 	border-radius: 10px;
-	padding: 130px 150px;
+	padding: 60px 150px;
 	text-align: center;
 	margin-top: 130px;
 }
@@ -145,4 +145,46 @@ main{
 }
 .skill-title {
 	margin: 18px 10px;
+}
+.skill-description {
+	color: #757575;
+}
+/* end skill sextion */
+
+
+/* start Resume section */
+.Resume {
+	margin: 80px 70px;
+}
+.Resume-continer {
+	display: flex;
+	gap: 60px;
+	margin-top: 125px;
+}
+.Resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+}
+.Resume hr{
+    margin: 30px 5px;
+}
+
+.Experience-title {
+	font-size: 20px;
+	color: #474747;
+	padding: 15px 0px 10px 0px;
+}
+.Experience-subtitle {
+	font-size: 16px;
+	font-weight: 700;
+	color: #757575;
+	margin: 7px 0px;
+}
+.Experience-descripation{
+    font-size: 16px;
+    color: #757575;
+}
+.Download-cv{
+    margin: 50Px;
 }
