@@ -45,9 +45,10 @@
     color: #181818;
 }
 
-.section-description{
-    font-size: 18px;
-    color: #757575;
+.section-descripation {
+	font-size: 18px;
+	color: #757575;
+	margin: 30px 0px 40px 0px;
 }
 
 .text-center{
@@ -99,8 +100,34 @@ nav li a {
 }
 .banner-description {
 	font-size: 18px;
+    color: #757575;
 	margin: 18px 0px 35px 0px;
 }
 .banner-profile-pic{
     width: 580px;
+}
+
+/* Main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about style */
+.about {
+	border-radius: 10px;
+	padding: 130px 150px;
+	text-align: center;
+	margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    color: #757575;
+}
+
+.item-description{
+    font-weight: 600;
 }
