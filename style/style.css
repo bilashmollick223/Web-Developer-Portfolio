@@ -188,3 +188,32 @@ main{
 .Download-cv{
     margin: 50Px;
 }
+/* End Resume style */
+
+
+/* Start Fouter */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.fouter-column {
+	width: 50%;
+}
+.fouter-description ,.fouter-title-two{
+	margin: 12px 0px;
+}
+
+footer input[type="text"], footer input[type="Email"], footer textarea{
+	height: 64px;
+	border-radius: 5px;
+	background-color: white;
+	color: #757575;
+	display: block;
+	width: 100%;
+	padding: 5px 18px;
+	margin-bottom: 24px;
+	border: none;
+}
+/* end style footer */
